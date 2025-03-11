@@ -11,7 +11,7 @@ def main():
     all_jobs = scrape_jobs(base_url)
 
     if all_jobs:
-        save_jobs_to_csv(all_jobs, "Todays_Remote_Jobs2.csv")
+        save_jobs_to_csv(all_jobs, "Todays_Remote_Jobs.csv")
     else:
         logging.info("No jobs were found during the crawl.")
 
