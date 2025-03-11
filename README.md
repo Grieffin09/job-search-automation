@@ -37,9 +37,6 @@ The Intelligent Job Matching Platform is a comprehensive, cloud-based solution d
    ```bash
    # For Python
    python main.py
-
-   # Or for Node.js
-   npm start
    ```
 
 ## Usage
